@@ -14,7 +14,7 @@ const PG_ROOT_PWD: &str = "postgres";
 const PG_APP_DB: &str = "app_db";
 const PG_APP_USER:&str = "app_user";
 const PG_APP_PWD:&str = "app_pwd_to_change";
-const PG_APP_MAX_CON: u32 = 5;
+const PG_APP_MAX_CON: u32 = 10;
 
 const SQL_DIR: &str = "sql/";
 const SQL_RECREATE: &str = "sql/00-recreate-db.sql";
